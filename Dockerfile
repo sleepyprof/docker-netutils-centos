@@ -6,7 +6,6 @@ RUN yum -y update && \
   yum install -y \
     less \
     vim \
-    npm \
     wget \
     net-tools \
     telnet \
