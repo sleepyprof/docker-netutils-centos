@@ -15,8 +15,7 @@ RUN yum -y update && \
       bind-utils \
       iproute \
       nmap \
-      tcpdump \
-      links && \
+      tcpdump && \
     yum clean all && \
     rm -rf /var/cache/yum
 
