@@ -9,7 +9,6 @@ RUN yum -y update && \
       less \
       vim \
       wget \
-      httpie \
       net-tools \
       telnet \
       bind-utils \
