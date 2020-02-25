@@ -8,6 +8,7 @@ RUN yum -y update && \
     yum install -y \
       less \
       vim \
+      jq \
       wget \
       net-tools \
       telnet \
