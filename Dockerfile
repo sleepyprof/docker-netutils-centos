@@ -15,7 +15,8 @@ RUN yum -y update && \
       bind-utils \
       iproute \
       nmap \
-      tcpdump && \
+      tcpdump \
+      openldap-clients && \
     yum clean all && \
     rm -rf /var/cache/yum
 
